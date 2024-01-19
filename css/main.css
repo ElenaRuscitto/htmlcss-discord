@@ -94,8 +94,9 @@ nav {
   justify-content: center;
   align-items: center;
   cursor: pointer;
-  margin: 3% 40% 10%;
+  margin: 0 3% 10% 0;
   border: none;
+  display: inline;
 }
 
 .bottone-grandissimo-nero {
@@ -109,8 +110,8 @@ nav {
   justify-content: center;
   align-items: center;
   cursor: pointer;
-  margin: 3% 40% 10%;
   border: none;
+  display: inline;
 }
 
 .bottone-grande-blu {
@@ -138,7 +139,6 @@ nav {
 }
 
 .conteiner-special {
-  height: 500px;
   width: 1600px;
   display: flex;
   margin: 0 auto;
@@ -262,13 +262,20 @@ p {
 
 .pink {
   color: rgb(142, 161, 225);
-  border: 2px dashed black;
   margin: 10px auto;
   width: 40%;
-  height: 90%;
   font-size: 3.5rem;
 }
 
+.img-ita {
+  width: 35px;
+  height: 20px;
+}
+
+footer span, #logo{
+  color: white;
+  font-size: 22px;
+}
 .elenco-footer {
   margin: 90px auto;
   width: 20%;
@@ -278,12 +285,12 @@ p {
   padding: 20px;
 }
 
-.elenco-footer li a {
+.elenco-footer, li, a {
   color: white;
   font-size: 1.3rem;
   text-decoration: none; 
   list-style: none;
-  padding: 5%;
+  padding: 5px;
 }
 
 .elenco-footer li .primo {
