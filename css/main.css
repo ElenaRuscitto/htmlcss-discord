@@ -139,6 +139,7 @@ nav {
   justify-content: center;
   align-self: center;
   align-items: center;
+  flex-direction: column;
 }
 
 h1 {
@@ -146,12 +147,13 @@ h1 {
   height: 20px;
   display: block;
   font-size: 5rem;
-
+  flex-direction: column;
 }
 
 p {
   width: 530px;
   font-size: 30px;
+  flex-flow: column;
 }
 
 
@@ -190,7 +192,6 @@ p {
 
 .testo {
   background-color: rgb(255, 192, 203);
-  border: 2px dashed black;
   color: black;
   font-size: 3rem;
   width: 40%;
@@ -199,7 +200,7 @@ p {
   display: flex;
   justify-content: center;
   align-self: center;
-
+  flex-direction: column;
 }
 
 .box-special {
@@ -216,31 +217,40 @@ p {
 /*FOOTER*/
 
 .pink {
-  background-color: rgb(238, 109, 131);
+  color: rgb(142, 161, 225);
   border: 2px dashed black;
   margin: 10px auto;
   width: 40%;
   height: 90%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  font-size: 3.5rem;
 }
 
 .elenco-footer {
-  background-color: rgb(32, 178, 170);
-  border: 2px dashed black;
-  margin: 10px auto;
+  margin: 90px auto;
   width: 20%;
   height: 90%;
   display: flex;
   justify-content: center;
-  align-items: center;
+  padding: 20px;
 }
+
+.elenco-footer li a {
+  color: white;
+  font-size: 1.3rem;
+  text-decoration: none; 
+  list-style: none;
+  padding: 5%;
+}
+
+.elenco-footer li .primo {
+  color: rgb(142, 161, 225);
+}
+
 
 .ultimo {
   background-color: rgb(127, 255, 212);
   margin: 10px auto;
-  width: 100%;
+  width: 25%;
   height: 86%;
   display: flex;
   justify-content: center;
