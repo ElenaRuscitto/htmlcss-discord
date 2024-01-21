@@ -2,11 +2,13 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+
 }
 
 body {
   font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   margin: 0 auto;
+
 }
 
 header{
@@ -366,3 +368,76 @@ footer span, #logo{
 }
 
 
+/*WAVE*/
+
+
+.wave {
+  display: block;
+  position: relative;
+  height: 40px;
+  width: 78%;
+  background: rgb(246, 246, 246);
+  transform: scale(1, 1);
+}
+
+.wave:before {
+  content: "";
+  display: block;
+  position: absolute;
+  border-radius: 896% 168% 00% 0%;
+  width: 69%;
+  height: 238px;
+  background-color: rgb(246, 246, 246);
+  right: -29%;
+  top: -99px
+}
+
+.wave:after {
+  content: "";
+  display: block;
+  position: absolute;
+  border-radius: 2% 202% 0% 50%;
+  width: 79%;
+  height: 219px;
+  background-color: rgb(246, 246, 246);
+  left: -32%;
+  top: -106px;
+
+}
+
+
+/*WAVE REVERSE*/
+
+.wave-reverse {
+  display: block;
+  position: relative;
+  height: 40px;
+  width: 78%;
+  background: white;
+  transform: scale(1, 1);
+}
+
+.wave-reverse:before {
+  content: "";
+  display: block;
+  position: absolute;
+  border-radius: 896% 168% 00% 0%;
+  width: 69%;
+  height: 238px;
+  background-color: white;
+  right: -29%;
+  top: -99px
+}
+
+.wave-reverse:after {
+  content: "";
+  display: block;
+  position: absolute;
+  border-radius: 2% 202% 0% 50%;
+  width: 79%;
+  height: 219px;
+  background-color: white;
+  left: -32%;
+  top: -106px;
+
+}
